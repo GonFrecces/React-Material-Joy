@@ -1,2 +1,2 @@
 # React-Material-Joy
-components with joy-styles
+components with JoyUI
