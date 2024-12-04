@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { Transition } from 'react-transition-group';
-import { Modal, ModalDialog, ModalClose, DialogTitle, DialogContent, Typography, Sheet, Button } from '@mui/joy';
+import { Modal, ModalDialog, DialogTitle, DialogContent, Typography, Sheet, Button } from '@mui/joy';
+import SignIn from '../login/signIn';
 
 const FadeModalDialog = (props) => {
 
@@ -48,7 +49,7 @@ const FadeModalDialog = (props) => {
                     >
                         <DialogTitle>Transition modal</DialogTitle>
                         <DialogContent>
-                            Using `react-transition-group` to create a fade animation.
+                            <SignIn />
                         </DialogContent>
                     </ModalDialog>
                 </Modal>

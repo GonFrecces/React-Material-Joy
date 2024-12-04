@@ -5,7 +5,7 @@ import CssBaseline from '@mui/joy/CssBaseline';
 import { Grid, Box, Button, Card, CardContent, CardOverflow, CardActions, IconButton, Typography, Chip, ButtonGroup } from '@mui/joy';
 import SvgIcon from '@mui/joy/SvgIcon';
 import ColorSchemeToggle from './components/ColorSchemeToggle';
-import FadeModalDialog from './components/modal/login';
+import FadeModalDialog from './components/modal/modalDefault';
 
 function App() {
 
